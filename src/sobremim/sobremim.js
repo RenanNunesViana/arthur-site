@@ -32,7 +32,7 @@ const myChart = new Chart(ctx, {
     options: {
         indexAxis: 'y', // Barras horizontais
         responsive: true,
-        //maintainAspectRatio: false,
+        maintainAspectRatio: false,
         scales: {
             x: {
                 beginAtZero: true,
